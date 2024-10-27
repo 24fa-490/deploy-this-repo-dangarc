@@ -8,7 +8,7 @@
 		"preview": "vite preview",
 		"lint": "prettier --check . && eslint .",
 		"format": "prettier --write .",
-		"start": "export PATH=$PATH:./node_modules/.bin && sirv public --single"
+		"start": "PATH=$PATH:./node_modules/sirv public --single"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.0.0",
